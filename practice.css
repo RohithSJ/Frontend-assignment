@@ -1,0 +1,142 @@
+.hero {
+    padding: 10px;
+    text-align: left;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.logo {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo img {
+    margin-right: 15px; 
+}
+
+/* Style for the navigation */
+.navigation {
+    display: flex; 
+    align-items: center; 
+}
+
+.navigation h3 {
+    margin-right: 20px; 
+    font-size: 1rem; 
+}
+
+
+.banner{
+
+margin-bottom: 30px;
+height:100px;
+}
+
+
+.banner img{
+
+    width:100%;
+ 
+    }
+
+
+#arrow h1 img{
+    margin-top:400px;
+    margin-right: 30px;
+  }
+
+
+/* Style for the jar container */
+.container {
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px; 
+}
+
+/* Style for the jar images */
+.jar img {
+    width: 100%; /* Make the image width 100% of its container */
+    margin-right: 30px;
+    display: inline-flex;
+    width:420px;
+    height:350px;
+}
+
+
+.jar h3{
+    text-align: center;
+}
+
+
+.jar p{
+    word-wrap: break-word;
+    color: blueviolet;
+}
+
+
+#arrow-1{
+    margin-top:100px;
+}
+
+
+
+#lorem-1 img {
+    float: right;
+    margin-top: -50px;
+    height:230px;
+    margin-left: 20px;
+   }
+   
+
+
+#lorem-2 img {
+    float: left;
+    margin-top: -40px;
+    height: 250px;
+    width:240px;
+   }
+
+
+
+footer{
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+/* Style for the horizontal line */
+footer hr {
+    border: none; 
+    border-top: 3px solid brown; 
+    margin: 10px 0; 
+}
+
+
+footer h4{
+    word-wrap: break-word;
+    color:blueviolet;
+}
+
+
+footer nav h3{
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+    .navigation h5{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navigation h5{
+        font-size: 1.5rem;
+    }
+}
